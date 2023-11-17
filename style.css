@@ -17,8 +17,22 @@ section h1{
      background-color: #3498db; 
      color: #fff;              
     padding: 20px;            
-     margin: 0;                
+     margin: 0; 
+     text-shadow:
+     0.025em 0.025em 0 black,
+     0.05em 0.05em 0 blue,
+     0.075em 0.075em 0 red,
+     0.025em 0.025em 0 pink;
+     font-size: 30px;
+     cursor: pointer;
+     color:black;
+     text-decoration-line: underline;
 }
+section h1:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+
 section h2{
     text-align: center;
     margin: auto;
@@ -377,6 +391,7 @@ section h2::after{
     justify-content: space-between;
     flex-wrap: wrap;
 
+
 }
 .footer-left,.footer-right{
     flex-basis: 45%;
@@ -385,9 +400,14 @@ section h2::after{
 }
 .footer-right{
     text-align: right;
+    padding-left: 90px;
+    margin-bottom: 90px;
+
 }
 .footer-row h1{
     margin: 10px 0;
+    font-size: 23px;
+    cursor: pointer;
 }
 .footer-row p{
     line-height: 35px;
@@ -396,6 +416,119 @@ section h2::after{
     margin-top: 0;
     padding-bottom: 70px;
 } 
+section h3{
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+    margin: 50px auto;
+
+
+
+}
+h3:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: 0.3s;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition-timing-function: ease-in-out;
+    height: 4px;
+
+}
+h3:hover::after{
+    transform: scaleX(0);
+}
+#sath h2 li{
+    font-size:28px;
+    text-shadow: 0,0,0,0.5,black;
+    cursor: pointer;
+    text-shadow: 
+        0.025em 0.025em 0 black,
+        0.05em 0.05em 0 blue,
+        0.075em 0.075em 0 red,
+        0.025em 0.025em 0 pink;
+        
+
+
+    
+}
+#sath h2 li:hover{
+    text-decoration-line: underline;
+    color: white;
+    
+}
+#sath ul li{
+    font-weight:bold;
+    font-size: 23px;
+    cursor: pointer;
+    
+
+}
+#sath{
+    text-align: justify;
+    padding-left:60px;
+    
+}
+#sath p{
+    font-weight:bold;
+    font-size: 23px;
+    cursor: pointer;
+}
+#sath h2{
+    font-size:28px;
+    text-shadow: 0,0,0,0.5,black;
+    cursor: pointer;
+    text-shadow: 
+        0.025em 0.025em 0 black,
+        0.05em 0.05em 0 blue,
+        0.075em 0.075em 0 red,
+        0.025em 0.025em 0 pink;
+    color: black;
+}
+#sath h2:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+.title-text h2{
+    font-size:28px;
+    text-shadow: 0,0,0,0.5,black;
+    cursor: pointer;
+    text-shadow: 
+        0.025em 0.025em 0 black,
+        0.05em 0.05em 0 blue,
+        0.075em 0.075em 0 red,
+        0.025em 0.025em 0 pink;
+}
+#footer h2{
+    font-size:28px;
+    text-shadow: 0,0,0,0.5,black;
+    cursor: pointer;
+    text-shadow: 
+        0.025em 0.025em 0 black,
+        0.05em 0.05em 0 blue,
+        0.075em 0.075em 0 red,
+        0.025em 0.025em 0 pink;
+    text-decoration-line: underline;
+}
+#footer p{
+    font-weight:bold;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+    
+
 
 
 
